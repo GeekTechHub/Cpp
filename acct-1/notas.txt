@@ -1,1 +1,48 @@
+// Online C++ compiler to run C++ program online
+//unilineal coment
+/*multinileal
+comentario
+*/
 
+//importo la lib nativa "iostream" *obligatorio
+//me permite interactuar con un program desde 0
+#include <iostream>
+
+//defino la funcion principal *oblig se llame main
+int main() {
+    //decimal
+    std::cout <<(4.5)<<std::endl;  
+      //mostar info en pantalla
+    std::cout << "tipos de datos en c++:" <<std::endl;
+    //booleanos
+    //se representa con un q si es vd y con 0 si es
+    std::cout << (10>4) <<std::endl;
+        std::cout <<(5)<<std::endl;
+            std::cout <<(4.6)<<std::endl;
+                std::cout <<(5==4)<<std::endl;
+                std::cout << true <<std::endl;
+                std::cout << false <<std::endl;
+                
+    //controlan que bloque se va a ejecutar dependiendo del resultado de la comparacion
+                
+                
+    //siempre al final de la funcion se debe colocar esta linea de codigo que se coloca para indicar que el programa llega hasta esta linea. esto es porque se a ejecutado
+//declaramos una variable llamada edad, y le asigno un valor numerico de tipo entero 
+int edad = 33;
+
+//estructura basica de un if
+if (edad <= 1 && edad >=17) {
+ std::cout << "eres menor" <<std::endl;
+} else if (edad <= 18 && edad >=59) {
+    std::cout << "eres mayor adulto/a" <<std::endl;
+} else {
+    std::cout << "eres mayor viejo/a" <<std::endl;
+
+    
+}
+
+
+
+
+    return 0;
+}
